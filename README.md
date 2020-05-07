@@ -67,7 +67,7 @@ Dataset is spitted in order: train 70% and test 30% data
 **1. Target 1: Feature importance**
 
 - Linear Regression model is highly recommended with 100*RMSE = 0.0167 and the score is nearly 0.94
-- The important factors are op_area (operation area) with negative impact around 5.2 and homepage_featured with positive high coeficient approximately 0.75 on the increase of meal orders
+- The important factors are op_area (operation area) with negative impact around 5.2 and homepage_featured with positive high coefficient approximately 0.75 on the increase of meal orders
 
 **2. Target 2: Out-of-sample forecast**
 
