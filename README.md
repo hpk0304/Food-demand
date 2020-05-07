@@ -1,6 +1,8 @@
 # Python project: Food-demand forecast
 ## Framework
-Food demand forecast is a sample to track the business operation and control the inventory in Food and Beverage industry, particularly in online sales. Using the past data to train models aims to figure out the next 10 weeks food demand. Based on the analysis and model, the organization has overview about upcoming numbers of meal orders. Further, with the feature importance, the corporate can manage the raw materials, change the sales and marketing activities or maybe prepare the shipping and staffs according to the regions or cities
+Food demand forecast is a sample to track the business operation and control the inventory in Food and Beverage industry, particularly in online sales. Using the past data to train models aims to figure out the next 10 weeks food demand. 
+
+Based on the analysis and model, the organization has overview about upcoming numbers of meal orders. Further, with the feature importance, the corporate can manage the raw materials, change the sales and marketing activities or maybe prepare the shipping and staffs according to the regions or cities
 
 **Keywords:** Forecast; sales orders
 
@@ -74,9 +76,9 @@ Dataset is spitted in order: train 70% and test 30% data
 
 ## Further research
 
-- Conducting the product-center combination in the past to do prediction can show the food demand and the center related. This help corporate plan well the shipping and the staffing issues.
-- The outliers in the dataset are large, but to prevent removing the dataset, other investigations related to risk management and tail control should be proceeded
-- Further, to improve the model, neuro network models will be researched to optimize the predictions
+- Conducting the product-center combination in the past to do prediction can show the food demand and the center related. This helps corporate plan well the shipping and the staffing issues.
+- The outliers in the dataset are large; however, to prevent removing the dataset, other investigations related to risk management and tail control should be proceeded
+- Further, to improve the model, neuro network models can be conducted to optimize the predictions
 
 
 
