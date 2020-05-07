@@ -20,7 +20,7 @@ Two main targets in the project include
 ## Data
 The data source is from Analytics Vidhya with three dataset 
 | Data (csv) |     Weekly Demand     | Fulfilment_center_info | meal_info |
-|------------|:----------------------|:-----------------------|----------:|
+|------------|:----------------------|:-----------------------|:----------|
 | Variables  | id                    | center_id              | meal_id   |
 |            | week                  | city_code              | category  |
 |            | center_id             | region_code            | cuisine   |
