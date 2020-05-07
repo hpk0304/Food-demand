@@ -7,7 +7,7 @@ Food demand forecast is a sample to track the business operation and control the
 
 ## Targets
 Two main targets in the project include
-- Figure out the feature importance to support the partner focus on some key features 
+- Figure out the feature importance and support the partner by understanding customer demand patterns 
 - Do forecast for the next 10 weeks
 
 ## Outline
@@ -18,3 +18,5 @@ Two main targets in the project include
 - Part 5: Further research
 
 ## Data
+The data source is from Analytics Vidhya with three dataset 
+- 
