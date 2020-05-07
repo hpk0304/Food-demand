@@ -24,7 +24,7 @@ There are several opportunities in the project
 **3. The challenges**
 
 Some challenges in the project contain:
-- The weekly number of meal orders are not unique. Therefore, it is necessery to aggregate the values by group
+- The weekly number of meal orders are not unique. Therefore, it is necessary to aggregate the values by group
 - The amount of meal orders after aggregation is huge and has lots of outliers. Thus, need to consider how to reduce the violation to support the predictions
 - The collecting approaches has an impact on the evaluation metrics for each model and the final solution
 
