@@ -31,6 +31,10 @@ The data source is from Analytics Vidhya with three dataset
 |            | homepage_featured     |                        |           |
 |            | num_orders            |                        |           |
 
+## The opportunities and challenges in the project
+1. **The opportunities**
+
+2. **The challenges**
 
 
 
