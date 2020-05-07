@@ -5,10 +5,15 @@ Food demand forecast is a sample to track the business operation and control the
 **Keywords:** Forecast; sales orders
 
 
-## Targets
+## Targets, opportunities and challenges
+1. ** Targets**
 Two main targets in the project include
 - Figure out the feature importance and support the partner by understanding customer demand patterns 
 - Do forecast for the next 10 weeks
+
+2. **The opportunities**
+
+3. **The challenges**
 
 ## Outline
 - Part 1: Define the problem
@@ -31,10 +36,6 @@ The data source is from Analytics Vidhya with three dataset
 |            | homepage_featured     |                        |           |
 |            | num_orders            |                        |           |
 
-## The opportunities and challenges in the project
-1. **The opportunities**
-
-2. **The challenges**
 
 
 
