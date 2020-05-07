@@ -7,10 +7,8 @@ Food demand forecast is a sample to track the business operation and control the
 
 ## Targets
 Two main targets in the project include
-
-a. Figure out the feature importance to support the partner focus on some key features 
-
-b. Do forecast for the next 10 weeks
+- Figure out the feature importance to support the partner focus on some key features 
+- Do forecast for the next 10 weeks
 
 ## Outline
 - Part 1: Define the problem
