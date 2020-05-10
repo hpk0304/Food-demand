@@ -1,8 +1,16 @@
 # Python project: Food-demand forecast
 ## Framework
-Food demand forecast is a sample to track the business operation and control the inventory in Food and Beverage industry, particularly in online sales. Using the past data to train models aims to figure out the next 10 weeks food demand. 
 
-Based on the analysis and model, the organization has overview about upcoming numbers of meal orders. Further, with the feature importance, the corporate can manage the raw materials, change the sales and marketing activities or maybe prepare the shipping and staffs according to the regions or cities
+**Describe the situation:** the corporation is a pickup business and desire to predict the amount of meal orders including Biryani, Pasta, Desert, Soup, Fish, Seafood, Starters, Pizza, Salad, Sandwich, Rice Bowl, Extras, other snacks and beverages in four cuisine such as Continential, Indian, Thai and Italian food. 
+
+**Business problem:**
+
+- The replenishment of majority of raw materials is done on weekly basis and since the raw material is perishable, the procurement planning is of utmost importance. 
+- Staffing of the centers is also one area wherein accurate demand forecasts are really helpful.
+
+Based on the analysis and model for the upcoming numbers of meal orders, the main purposes are to manage the raw materials for 10 weeks and to pay attention on how other fators effects the orders. Recognizing the most important features can also support the business to have an overview about the sales and marketing activities or maybe the negotiation with the shipping company.
+
+Food demand forecast is a sample to track the business operation and control the inventory in Food and Beverage industry, particularly in online sales. Using the past data to train models aims to figure out the next 10 weeks food demand. 
 
 **Keywords:** Forecast; sales orders
 
@@ -37,17 +45,17 @@ Some challenges in the project contain:
 
 ## Data
 The data source is from Analytics Vidhya with three dataset 
-| Data (csv) |     Weekly Demand     | Fulfilment_center_info | meal_info |
-|------------|:----------------------|:-----------------------|:----------|
-| Variables  | id                    | center_id              | meal_id   |
-|            | week                  | city_code              | category  |
-|            | center_id             | region_code            | cuisine   |
-|            | meal_id               | center_type            |           |
-|            | checkout_price        | op_area                |           |
-|            | base_price            |                        |           |
-|            | emailer_for_promotion |                        |           |
-|            | homepage_featured     |                        |           |
-|            | num_orders            |                        |           |
+| Data (csv) |     Weekly Demand                                       | Fulfilment_center_info              | meal_info            |
+|------------|:--------------------------------------------------------|:------------------------------------|:---------------------|
+| Variables  | id (unique)                                             | center_id                           | meal_id              |
+|            | week (week no)                                          | city_code (unique code for city)    | category (meal type) |
+|            | center_id (unique ID for center)                        | region_code (unique code for region)| cuisine              |
+|            | meal_id (unique id for meal)                            | center_type (anonymized)            |                      |
+|            | checkout_price (final price)                            | op_area (area operation (in km**2)  |                      |
+|            | base_price (base price)                                 |                                     |                      |
+|            | emailer_for_promotion (emailer sent for meal promotion) |                                     |                      |
+|            | homepage_featured (meal featured on homepage)           |                                     |                      |
+|            | num_orders (target - order count)                       |                                     |                      |
 
 ## Approaches
 **1. Models**
