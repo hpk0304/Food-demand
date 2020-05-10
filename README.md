@@ -17,7 +17,7 @@ Two main targets in the project include
 **2. The opportunities**
 
 There are several opportunities in the project
-- High applicability not only for the e-commerce industry but also for any industry in terms of business overview and operation 
+- High applicability not only for the e-commerce activities but also for any industry in terms of business overview and operation 
 - This can be used as a baseline for further projects regarding to visualized and forecast with the linear regression models
 - The variety of data helps the project develop the different visualizations  
 
