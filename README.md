@@ -68,7 +68,7 @@ Dataset is spitted in order: train 70% and test 30% data
 
 **2. Evaluation metrics**
 
-- Apply Root of mean squared logarithmic error (100*RMSE) to evaluate the effieciency of models
+- Apply Root of mean squared logarithmic error (100*RMSE) to evaluate the effieciency of models: MSE is quite popular in regression problem with the normality assumption. In the fact of dataset, due to the large deviations, the square helps to reduce the error values with the robust results and restrict the absolute error values (just show the magnitudes but not the trend of violations). Moreover, the huge outliers in the real num_orders (number of orders) can be solved with the logarithm num_orders_log, which is applied throughout part 3 and 4 as the target. Therefore, we use Root of mean squared logarithmic error (100*RMSE). Multiply with 100 to make sure the clear visualization for audiences.  
 
 ## Insights and conclusions
 
