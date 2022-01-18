@@ -60,10 +60,10 @@ The data source is from Analytics Vidhya with three dataset
 ## Approaches
 **1. Models**
 
-- For importance feature, two methods Linear Regression model and Random Forest model are applied
+- For importance feature, two methods Linear Regression model and Random Forest model are applied. 
 Dataset is splitted randomly into two parts: train 70% and test 30% data
 
-- For forecast, tuning ARIMA model aims to do out-of-sample forecast (10 weeks)
+- For forecast, tuning ARIMA model aims to do out-of-sample forecast (10 weeks). 
 Dataset is spitted in order: train 70% and test 30% data
 
 **2. Evaluation metrics**
